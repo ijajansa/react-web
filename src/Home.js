@@ -23,7 +23,7 @@ function Home() {
                 <div className="card bg-gradient-danger card-img-holder text-white">
                   <div className="card-body">
                     <img src="assets/images/dashboard/circle.svg" className="card-img-absolute" alt="circle-image" />
-                    <h4 className="font-weight-normal mb-3">Weekly Sales <i className="mdi mdi-chart-line mdi-24px float-end"></i>
+                    <h4 className="font-weight-normal mb-3">Total Categories <i className="mdi mdi-chart-line mdi-24px float-end"></i>
                     </h4>
                     <h2 className="mb-5">$ 15,0000</h2>
                     <h6 className="card-text">Increased by 60%</h6>
@@ -34,7 +34,7 @@ function Home() {
                 <div className="card bg-gradient-info card-img-holder text-white">
                   <div className="card-body">
                     <img src="assets/images/dashboard/circle.svg" className="card-img-absolute" alt="circle-image" />
-                    <h4 className="font-weight-normal mb-3">Weekly Orders <i className="mdi mdi-bookmark-outline mdi-24px float-end"></i>
+                    <h4 className="font-weight-normal mb-3">Total Products <i className="mdi mdi-bookmark-outline mdi-24px float-end"></i>
                     </h4>
                     <h2 className="mb-5">45,6334</h2>
                     <h6 className="card-text">Decreased by 10%</h6>
@@ -53,30 +53,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="row">
-              <div className="col-md-7 grid-margin stretch-card">
-                <div className="card">
-                  <div className="card-body">
-                    <div className="clearfix">
-                      <h4 className="card-title float-start">Visit And Sales Statistics</h4>
-                      <div id="visit-sale-chart-legend" className="rounded-legend legend-horizontal legend-top-right float-end"></div>
-                    </div>
-                    <canvas id="visit-sale-chart" className="mt-4"></canvas>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-5 grid-margin stretch-card">
-                <div className="card">
-                  <div className="card-body">
-                    <h4 className="card-title">Traffic Sources</h4>
-                    <div className="doughnutjs-wrapper d-flex justify-content-center">
-                      <canvas id="traffic-chart"></canvas>
-                    </div>
-                    <div id="traffic-chart-legend" className="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
             <div className="row">
               <div className="col-12 grid-margin">
                 <div className="card">
@@ -145,147 +122,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="row">
-              <div className="col-lg-5 grid-margin stretch-card">
-                <div className="card">
-                  <div className="card-body p-0 d-flex">
-                    <div id="inline-datepicker" className="datepicker datepicker-custom"></div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-7 grid-margin stretch-card">
-                <div className="card">
-                  <div className="card-body">
-                    <h4 className="card-title">Recent Updates</h4>
-                    <div className="d-flex">
-                      <div className="d-flex align-items-center me-4 text-muted font-weight-light">
-                        <i className="mdi mdi-account-outline icon-sm me-2"></i>
-                        <span>jack Menqu</span>
-                      </div>
-                      <div className="d-flex align-items-center text-muted font-weight-light">
-                        <i className="mdi mdi-clock icon-sm me-2"></i>
-                        <span>October 3rd, 2018</span>
-                      </div>
-                    </div>
-                    <div className="row mt-3">
-                      <div className="col-6 pe-1">
-                        <img src="assets/images/dashboard/img_1.jpg" className="mb-2 mw-100 w-100 rounded" alt="image"/>
-                        <img src="assets/images/dashboard/img_4.jpg" className="mw-100 w-100 rounded" alt="image"/>
-                      </div>
-                      <div className="col-6 ps-1">
-                        <img src="assets/images/dashboard/img_2.jpg" className="mb-2 mw-100 w-100 rounded" alt="image"/>
-                        <img src="assets/images/dashboard/img_3.jpg" className="mw-100 w-100 rounded" alt="image"/>
-                      </div>
-                    </div>
-                    <div className="d-flex mt-5 align-items-top">
-                      <img src="assets/images/faces/face3.jpg" className="img-sm rounded-circle me-3" alt="image"/>
-                      <div className="mb-0 flex-grow">
-                        <h5 className="me-2 mb-2">School Website - Authentication Module.</h5>
-                        <p className="mb-0 font-weight-light">It is a long established fact that a reader will be distracted by the readable content of a page.</p>
-                      </div>
-                      <div className="ms-auto">
-                        <i className="mdi mdi-heart-outline text-muted"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-7 grid-margin stretch-card">
-                <div className="card">
-                  <div className="card-body">
-                    <h4 className="card-title">Project Status</h4>
-                    <div className="table-responsive">
-                      <table className="table">
-                        <thead>
-                          <tr>
-                            <th> # </th>
-                            <th> Name </th>
-                            <th> Due Date </th>
-                            <th> Progress </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td> 1 </td>
-                            <td> Herman Beck </td>
-                            <td> May 15, 2015 </td>
-                            <td>
-                              <div className="progress">
-                                <div className="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td> 2 </td>
-                            <td> Messsy Adam </td>
-                            <td> Jul 01, 2015 </td>
-                            <td>
-                              <div className="progress">
-                                <div className="progress-bar bg-gradient-danger" role="progressbar"  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td> 3 </td>
-                            <td> John Richards </td>
-                            <td> Apr 12, 2015 </td>
-                            <td>
-                              <div className="progress">
-                                <div className="progress-bar bg-gradient-warning" role="progressbar"  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td> 4 </td>
-                            <td> Peter Meggik </td>
-                            <td> May 15, 2015 </td>
-                            <td>
-                              <div className="progress">
-                                <div className="progress-bar bg-gradient-primary" role="progressbar"  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td> 5 </td>
-                            <td> Edward </td>
-                            <td> May 03, 2015 </td>
-                            <td>
-                              <div className="progress">
-                                <div className="progress-bar bg-gradient-danger" role="progressbar"  aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td> 5 </td>
-                            <td> Ronald </td>
-                            <td> Jun 05, 2015 </td>
-                            <td>
-                              <div className="progress">
-                                <div className="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-5 grid-margin stretch-card">
-                <div className="card">
-                  <div className="card-body">
-                    <h4 className="card-title text-dark">Todo List</h4>
-                    <div className="add-items d-flex">
-                      <input type="text" className="form-control todo-list-input" placeholder="What do you need to do today?"/>
-                      <button className="add btn btn-gradient-primary font-weight-bold todo-list-add-btn" id="add-task">Add</button>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
+          
           </div>
     </div>
   )

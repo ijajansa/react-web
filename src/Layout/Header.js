@@ -1,12 +1,12 @@
 import React from 'react'
-
 const Header = () => {
   return (
     <div>
       <nav className="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
   <div className="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
-    <a className="navbar-brand brand-logo" href="../index.html"><img src="" alt="logo" /></a>
-    <a className="navbar-brand brand-logo-mini" href="../index.html"><img src="" alt="logo" /></a>
+    {/* <a className="navbar-brand brand-logo" href="../index.html"><img src="" alt="logo" /></a> */}
+    {/* <a className="navbar-brand brand-logo-mini" href="../index.html"><img src="" alt="logo" /></a> */}
+    <h2>Admin Panel</h2>
   </div>
   <div className="navbar-menu-wrapper d-flex align-items-stretch">
     <button className="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
