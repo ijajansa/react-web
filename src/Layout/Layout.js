@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../Layout/Header'
-import Footer from '../Layout/Footer'
-import Sidebar from '../Layout/Sidebar'
-const Layout = (children) => {
+import Header from './Header'
+import Footer from './Footer'
+import Sidebar from './Sidebar'
+const Layout = ({children}) => {
   return (
     <div>
     <div className="container-scroller">

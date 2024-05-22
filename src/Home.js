@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
   return (
     <div>
-      <div className="content-wrapper">
+      <div className="content-wrapper mt-5">
             <div className="page-header">
               <h3 className="page-title">
                 <span className="page-title-icon bg-gradient-primary text-white me-2">
@@ -213,7 +213,7 @@ function Home() {
                             <td> May 15, 2015 </td>
                             <td>
                               <div className="progress">
-                                <div className="progress-bar bg-gradient-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                               </div>
                             </td>
                           </tr>
@@ -223,7 +223,7 @@ function Home() {
                             <td> Jul 01, 2015 </td>
                             <td>
                               <div className="progress">
-                                <div className="progress-bar bg-gradient-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar bg-gradient-danger" role="progressbar"  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                               </div>
                             </td>
                           </tr>
@@ -233,7 +233,7 @@ function Home() {
                             <td> Apr 12, 2015 </td>
                             <td>
                               <div className="progress">
-                                <div className="progress-bar bg-gradient-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar bg-gradient-warning" role="progressbar"  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                               </div>
                             </td>
                           </tr>
@@ -243,7 +243,7 @@ function Home() {
                             <td> May 15, 2015 </td>
                             <td>
                               <div className="progress">
-                                <div className="progress-bar bg-gradient-primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar bg-gradient-primary" role="progressbar"  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                               </div>
                             </td>
                           </tr>
@@ -253,7 +253,7 @@ function Home() {
                             <td> May 03, 2015 </td>
                             <td>
                               <div className="progress">
-                                <div className="progress-bar bg-gradient-danger" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar bg-gradient-danger" role="progressbar"  aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
                               </div>
                             </td>
                           </tr>
@@ -263,7 +263,7 @@ function Home() {
                             <td> Jun 05, 2015 </td>
                             <td>
                               <div className="progress">
-                                <div className="progress-bar bg-gradient-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                               </div>
                             </td>
                           </tr>
