@@ -37,6 +37,20 @@ const Sidebar = () => {
         <i className="mdi mdi-home menu-icon"></i>
       </Link>
     </li>
+
+    <li className="nav-item">
+      <Link className="nav-link" to="addproduct">
+        <span className="menu-title">AddProduct</span>
+        <i className="mdi mdi-home menu-icon"></i>
+      </Link>
+    </li>
+
+    <li className="nav-item">
+      <Link className="nav-link" to="addcategory">
+        <span className="menu-title">AddCategory</span>
+        <i className="mdi mdi-home menu-icon"></i>
+      </Link>
+    </li>
   </ul>
 </nav>
     </div>
